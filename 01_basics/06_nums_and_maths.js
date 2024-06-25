@@ -24,7 +24,7 @@
 
 console.log(Math.random()); //Gives value in 1 and 0
 console.log((Math.random()*10) + 1); //Shifts the value
-console.log(Math.floor(Math.random()*10) + 1); //Math.floor will give the lowest value (0), So we add +1 at the end so that it gives the min value from 1 
+console.log(Math.floor(Math.random()*10) + 1); //Math.floor will give the lowest value (0), So we add +1 at the end so that it gives the min value from 1. we multiplied Math.random() with 10 so it shifts the value and we dont get it in decimal. 
 
 const min = 10
 const max = 20
